@@ -5,13 +5,15 @@ const Contact = () => {
 	return (
 		<Wrapper>
 			<div className="section-center">
-				<h3>Join our newsletter and get 20% off</h3>
+				<h3>Join our newsletter and get 15% off</h3>
 				<div className="content">
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Commodi veritatis quibusdam repellat ut rem aperiam, pariatur
-						beatae molestias. A pariatur illum praesentium sed? Deserunt,
-						natus?
+						first purchase, as well as exclusive access to design tips,
+						curated inspiration, and upcoming promotions. As a valued
+						subscriber, we promise to provide you with a delightful home
+						interior experience, codified content, and exciting surprises
+						along the way. Get ready to transform your living space into
+						something extraordinary.
 					</p>
 					<form className="contact-form">
 						<input
@@ -35,6 +37,7 @@ const Wrapper = styled.section`
     text-transform: none;
   }
   p {
+    font-size: 1rem;
     line-height: 2;
     max-width: 45em;
     color: var(--clr-grey-5);
@@ -82,15 +85,18 @@ const Wrapper = styled.section`
       display: grid;
       grid-template-columns: 1fr 1fr;
       align-items: center;
-      gap: 8rem;
+      max-width: ;
+      gap: 5rem;
       margin-top: 2rem;
     }
     p {
       margin-bottom: 0;
+      width: 37rem;
     }
   }
   @media (min-width: 1280px) {
-    padding: 15rem 0;
+    padding: 10rem 0;
+
   }
 `;
 
