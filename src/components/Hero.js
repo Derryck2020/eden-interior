@@ -13,9 +13,9 @@ const Hero = () => {
 					cosy zone
 				</h1>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. In, at
-					animi minus iusto vitae debitis fuga id sequi recusandae!
-					Perferendis?
+					Transforming houses into dream homes, one click at a time -
+					discover endless possibilities for your perfect sanctuary with
+					our extraordinary home interior products.
 				</p>
 				<Link to="/products" className="btn hero-btn">
 					shop now
@@ -42,7 +42,8 @@ const Wrapper = styled.section`
     max-width: 45em;
     margin-bottom: 2rem;
     color: var(--clr-grey-5);
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-family: Helvetica;
   }
   @media (min-width: 992px) {
     height: calc(100vh - 5rem);
