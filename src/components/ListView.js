@@ -8,7 +8,7 @@ const ListView = ({ products }) => {
 			{products.map((product) => {
 				const { id, image, name, price, description } = product;
 				return (
-					<article>
+					<article key={id}>
 						<img src={image} alt={name} />
 						<div>
 							<h4>{name}</h4>
