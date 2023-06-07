@@ -8,13 +8,14 @@ const Services = () => {
 			<div className="section-center">
 				<article className="header">
 					<h3>
-						custom furniture <br />
-						built only for you
+						Creating homes that delight, <br />
+						with customers at heart.
 					</h3>
 					<p>
-						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos
-						dolore, deleniti hic ratione ea voluptas voluptates. Commodi
-						nihil similique, facilis obcaecati et accusamus nobis placeat.
+						<span className="eden">eDEN</span> meticulously crafts each
+						product with passion, ensuring that every detail exudes
+						elegance and quality, captivating customers with an undeniable
+						love for our creations.
 					</p>
 				</article>
 				<div className="services-center">
@@ -56,6 +57,13 @@ const Wrapper = styled.section`
     display: grid;
     gap: 2.5rem;
   }
+  p .eden{
+    color: var(--clr-primary-3);
+    display: inline;
+    font-size: 1rem;
+    font-weight: 500;
+
+  }
   .service {
     background: var(--clr-primary-7);
     text-align: center;
@@ -79,6 +87,7 @@ const Wrapper = styled.section`
       font-size: 2rem;
     }
   }
+
   @media (min-width: 992px) {
     .header {
       display: grid;
