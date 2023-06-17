@@ -1,5 +1,5 @@
 import React from 'react';
-import { GiCompass, GiDiamondHard, GiStabbedNote } from 'react-icons/gi';
+import { GiCompass, GiDiamondHard, GiSteampunkGoggles } from 'react-icons/gi';
 
 export const links = [
 	{
@@ -24,19 +24,19 @@ export const services = [
 		id: 1,
 		icon: <GiCompass />,
 		title: 'mission',
-		text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+		text: 'We are dedicated to creating exceptional, inspiring spaces that reflect the unique tastes and lifestyles of our clients, making their dream homes a reality.',
 	},
 	{
 		id: 2,
-		icon: <GiDiamondHard />,
+		icon: <GiSteampunkGoggles />,
 		title: 'vision',
-		text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+		text: 'Our vision is to be a trailblazer in the home interior industry, redefining the way people experience and interact with their living spaces. ',
 	},
 	{
 		id: 3,
-		icon: <GiStabbedNote />,
-		title: 'history',
-		text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+		icon: <GiDiamondHard />,
+		title: 'value',
+		text: 'We are committed to integrity, transparency, and exceptional customer service, fostering long-lasting relationships with our clients based on trust, respect, and a shared passion for creating beautiful living environments.',
 	},
 ];
 
